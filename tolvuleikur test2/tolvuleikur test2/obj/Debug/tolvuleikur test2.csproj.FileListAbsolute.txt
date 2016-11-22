@@ -7,3 +7,12 @@ H:\GIT\git_verkefni\tolvuleikurinn\tolvuleikur test2\tolvuleikur test2\obj\Debug
 H:\GIT\git_verkefni\tolvuleikurinn\tolvuleikur test2\tolvuleikur test2\obj\Debug\tolvuleikur test2.csproj.GenerateResource.Cache
 H:\GIT\git_verkefni\tolvuleikurinn\tolvuleikur test2\tolvuleikur test2\obj\Debug\tolvuleikur test2.exe
 H:\GIT\git_verkefni\tolvuleikurinn\tolvuleikur test2\tolvuleikur test2\obj\Debug\tolvuleikur test2.pdb
+H:\tolvuleikur\tolvuleikur test2\tolvuleikur test2\bin\Debug\tolvuleikur test2.exe.config
+H:\tolvuleikur\tolvuleikur test2\tolvuleikur test2\obj\Debug\tolvuleikur test2.exe
+H:\tolvuleikur\tolvuleikur test2\tolvuleikur test2\obj\Debug\tolvuleikur test2.pdb
+H:\tolvuleikur\tolvuleikur test2\tolvuleikur test2\obj\Debug\tolvuleikur test2.csprojResolveAssemblyReference.cache
+H:\tolvuleikur\tolvuleikur test2\tolvuleikur test2\obj\Debug\tolvuleikur_test2.Form1.resources
+H:\tolvuleikur\tolvuleikur test2\tolvuleikur test2\obj\Debug\tolvuleikur_test2.Properties.Resources.resources
+H:\tolvuleikur\tolvuleikur test2\tolvuleikur test2\obj\Debug\tolvuleikur test2.csproj.GenerateResource.Cache
+H:\tolvuleikur\tolvuleikur test2\tolvuleikur test2\bin\Debug\tolvuleikur test2.exe
+H:\tolvuleikur\tolvuleikur test2\tolvuleikur test2\bin\Debug\tolvuleikur test2.pdb
