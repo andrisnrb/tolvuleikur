@@ -83,9 +83,11 @@ namespace tolvuleikur_test2
             //MapDesign
 
             Tré1(32, 10);
-            Hús1(5, 10);
-            Hús2(5, 17);
-
+            Tré1(20, 25);
+            Tré1(23, 5);
+            Hús1v1(5, 10);
+            Hús1v2(5, 17);
+            Hús1v2(13, 12);
         }
 
         private void Form1_Click(object sender, EventArgs e)
@@ -135,7 +137,7 @@ namespace tolvuleikur_test2
         }
 
         //Hús
-        public void Hús1(int x, int y)
+        public void Hús1v1(int x, int y)
         {
             for (int i = 0; i < World.Length; i++)
             {
@@ -160,7 +162,7 @@ namespace tolvuleikur_test2
             }
 
         }
-        public void Hús2(int x, int y)
+        public void Hús1v2(int x, int y)
         {
             for (int i = 0; i < World.Length; i++)
             {
