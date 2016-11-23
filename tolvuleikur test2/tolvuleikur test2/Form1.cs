@@ -12,7 +12,7 @@ namespace tolvuleikur_test2
 {
     public partial class Form1 : Form
     {
-        int teljari1 = 0, teljari2 = 0, teljari3 = 1;
+        int teljari1 = 0, teljari2 = 0;
         int currentX = 0;
         int currentY = 0;
 
@@ -41,35 +41,12 @@ namespace tolvuleikur_test2
                 World[i].Size = new Size(15, 15);
                 World[i].Location = new Point(x, y);
                 World[i].Name = (currentX + ":" + currentY);
-                //temp
-                if (teljari1 % 5 == 0 && teljari2 == 0)
-                {
-                    World[i].BackColor = Color.Red;
-                }
-                //temp
-                else
-                {
-                    World[i].BackColor = Color.LightGreen;
-                }
+                World[i].BackColor = Color.LightGreen;
                
-
-                //startPositioning
-                if (World[i].Name == "39:10")
-                {
-                    World[i].BackColor = Color.Black;
-                    World[i].ForeColor = World[i].BackColor;
-                }
-
                 x = x + 15;
                 if (teljari1 == 62)
                 {
                     teljari2++;
-                    //temp
-                    if (teljari2%5==0)
-                    {
-                        World[i].BackColor = Color.Red;
-                    }
-                    //temp
                     currentX = 0;
                     x = 3;
                     y = y + 15;
@@ -82,20 +59,62 @@ namespace tolvuleikur_test2
 
             //MapDesign
 
+            StartingPos(31, 20);
+
             Tré1(32, 10);
             Tré1(20, 25);
             Tré1(23, 5);
+            Tré1(4,3 );
+            Tré1(11,6 );
+            Tré1(16, 1);
+            Tré1(16, 8);
+            Tré1(14, 21);
+            Tré1(9, 26);
+            Tré1(3, 25);
+            Tré1(8, 0);
+            Tré1(1,9);
+            Tré1(1, 15);
+            Tré2(11,2);
+            Tré1(5,30);
+            Tré1(15,28);
+            Tré2(46,2);
+            Tré2(48,10);
+            Tré2(44,21);
+            Tré2(1,0);
+            Tré2(3,20);
+            Tré2(6,23);
+            Tré2(19,19);
+            Tré2(25,12);
+            Tré2(34,25);
+            Tré2(6, 7);
+
             Hús1v1(5, 10);
             Hús1v2(5, 17);
             Hús1v2(13, 12);
+            
+            
+
         }
 
         private void Form1_Click(object sender, EventArgs e)
         {
+            Button tempButton = (Button)sender;
 
+            bits.Text = tempButton.Name;
         }
 
         //MapDesignTools
+
+        public void StartingPos(int x, int y)
+        {
+            for (int i = 0; i < World.Length; i++)
+            {
+                if (World[i].Name == x + ":" + y)
+                {
+                    World[i].BackColor = Color.Black;
+                }
+            }
+        }
 
         //tré
         public void Tré1(int x, int y)
@@ -117,7 +136,7 @@ namespace tolvuleikur_test2
         {
             for (int i = 0; i < World.Length; i++)
             {
-                if (World[i].Name == x + ":" + y)
+                if (World[i].Name == x + ":" + y || World[i].Name == (x + 1) + ":" + y || World[i].Name == x + ":" + (y + 1) || World[i].Name == (x - 1) + ":" + y || World[i].Name == x + ":" + (y - 1))
                 {
                     World[i].BackColor = Color.DarkGreen;
                 }
@@ -162,6 +181,7 @@ namespace tolvuleikur_test2
             }
 
         }
+
         public void Hús1v2(int x, int y)
         {
             for (int i = 0; i < World.Length; i++)

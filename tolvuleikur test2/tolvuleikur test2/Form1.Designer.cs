@@ -34,6 +34,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.bits = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -90,11 +91,19 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "label6";
             // 
+            // bits
+            // 
+            this.bits.Location = new System.Drawing.Point(743, 579);
+            this.bits.Name = "bits";
+            this.bits.Size = new System.Drawing.Size(100, 20);
+            this.bits.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(952, 611);
+            this.Controls.Add(this.bits);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -116,6 +125,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox bits;
     }
 }
 
